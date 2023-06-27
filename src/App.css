@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Press+Start+2P&display=swap");
+
+:root {
+  --bg: #212121;
+  --border: #000;
+  --quadrado-bg: #333;
+  --text-dark: #212121;
+  --text-light: #DDD;
+}
+
+* {
+  font-family: "Cairo", sans-serif;
+  font-family: "Press Start 2P", cursive;
+}
+
+body {
+  height: 100vh;
+  background-image: url("../public/bg.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.titulo {
+  color: var(--text-light);
+  text-shadow: 1px 0px 4px var(--border);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: var(--text-light);
+}
+
+.tabuleiro {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.quadrado {
+  width: 100px;
+  height: 100px;
+  border: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 40px;
+  background: url("../public/quadrado-bg.png");
+  background-size: cover;
+  background-color: #acacac;
+  background-blend-mode: multiply;
+}
+
+.mensagem {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: var(--text-light);
+  text-shadow: 1px 0px 4px var(--border);
+}
+
+button {
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 10px 20px;
+  background: #999 url("../public/btn-bg.png") center / cover;
+  image-rendering: pixelated;
+  background-color: #999;
+  border: 2px solid var(--border);
+  cursor: pointer;
+
+  &:hover .btn-titulo {
+		color: #FFFFA0;
+	}
+}
+
+.btn-titulo {
+  color: var(--text-light);
+  text-shadow: 2px 2px #000;
+}
