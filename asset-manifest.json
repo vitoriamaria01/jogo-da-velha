@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/jogo-da-velha/static/css/main.b34f3377.css",
+    "main.js": "/jogo-da-velha/static/js/main.09ebabe3.js",
+    "static/media/bg.png": "/jogo-da-velha/static/media/bg.e161ec6961ef7c7aac3b.png",
+    "index.html": "/jogo-da-velha/index.html",
+    "main.b34f3377.css.map": "/jogo-da-velha/static/css/main.b34f3377.css.map",
+    "main.09ebabe3.js.map": "/jogo-da-velha/static/js/main.09ebabe3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b34f3377.css",
+    "static/js/main.09ebabe3.js"
+  ]
+}
